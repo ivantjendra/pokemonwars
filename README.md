@@ -1,4 +1,4 @@
-# pokemonwars.github.io
+# pokemonwars
 Final project phase-0
 
 Creator: Ivan Jonathan Tjendra
