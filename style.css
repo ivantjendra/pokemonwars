@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0272;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  text-align: center;
+  color: #0a0272;
+  font-family: Oswald, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.game-rule {
+  margin: 30px;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  color: white;
+  font-family: Oswald, sans-serif;
+  border: 4px solid white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.rule {
+  text-align: center;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.play {
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 4px solid white;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  width: 200px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.play:hover {
+  border: 4px solid red;
+  font-size: 25px;
+  background-color: #850c0c;
+}
+
+.bar {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.status {
+  margin: 0 100px;
+  display: inline-block;
+  position: relative;
+  border: 4px solid white;
+  border-radius: 30%;
+  padding: 20px;
+  font-family: Oswald, sans-serif;
+  color: white;
+  background-color: #850c0c;
+  font-size: 20px;
+}
+
+.result {
+  font-size: 30px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+}
+
+.choices {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.choice {
+  border: 4px solid white;
+  border-radius: 30%;
+  padding: 20px;
+  margin: 0 20px;
+  display: inline-block;
+  background-color:#350404;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  padding: 30px;
+  background-color: #850c0c;
+}
+
+#action-message {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#remainder {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
